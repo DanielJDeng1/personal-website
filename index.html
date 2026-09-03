@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Daniel Deng: software, machine learning, and game projects." />
+  <meta name="color-scheme" content="light dark" />
+  <title>Daniel Deng</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <a class="wordmark" href="#top" aria-label="Daniel Deng, home">Daniel Deng</a>
+    <nav class="site-nav" aria-label="Primary navigation">
+      <a href="#work">Projects</a>
+      <a href="#about">About</a>
+      <a href="https://github.com/DanielJDeng1" target="_blank" rel="noreferrer">GitHub</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="intro" id="top" aria-labelledby="intro-title">
+      <h1 id="intro-title">Daniel Deng</h1>
+      <div class="intro-copy">
+        <p>
+          Hello! I'm an undergraduate computer science student at the University of Texas at Austin.
+        </p>
+        <p>
+          I love learning and working on projects in reinforcement learning, game development, and full-stack development.
+          I do work primarily with Python, Java, C#, Unity, and PyTorch, but am open to new technologies and leaving my comfort zone.
+        </p>
+      </div>
+      <div class="intro-links" aria-label="Profile links">
+        <a href="https://github.com/DanielJDeng1" target="_blank" rel="noreferrer">GitHub</a>
+        <a href="#contact">Contact</a>
+        <a href="https://www.linkedin.com/in/daniel-deng-004b25288/" target="_blank" rel="noreferrer">LinkedIn</a>
+      </div>
+    </section>
+
+    <section class="work" id="work" aria-labelledby="work-title">
+      <div class="section-heading">
+        <h2 id="work-title">Featured projects</h2>
+      </div>
+
+      <article class="project project-featured">
+        <div class="project-copy">
+          <div class="project-title-row">
+            <h3>Grid Building System</h3>
+            <a href="https://github.com/DanielJDeng1/Grid-Building-System" target="_blank" rel="noreferrer" aria-label="Open Grid Building System on GitHub">Repository</a>
+          </div>
+          <p>
+            A Unity framework for runtime object placement, dynamic mesh chunking, JSON save/load, and grid pathfinding.
+          </p>
+          <ul class="project-meta" aria-label="Technologies">
+            <li>Unity</li>
+            <li>C#</li>
+            <li>Pathfinding</li>
+            <li>Runtime Meshes</li>
+          </ul>
+        </div>
+        <figure class="project-media" aria-label="Grid Building System demo video">
+          <video autoplay muted loop playsinline preload="metadata">
+            <source src="assets/projects/GridBuilding.mp4" type="video/mp4" />
+            Your browser does not support HTML5 video.
+          </video>
+        </figure>
+      </article>
+
+      <article class="project">
+        <div class="project-copy">
+          <div class="project-title-row">
+            <h3>Triple Pendulum RL</h3>
+            <a href="https://github.com/DanielJDeng1/triple-pendulum-balancer-rl" target="_blank" rel="noreferrer" aria-label="Open Triple Pendulum RL on GitHub">Repository</a>
+          </div>
+          <p>
+            A custom MuJoCo/Gymnasium environment for balancing a triple inverted pendulum on a cart. Gymnasium provides a double inverted pendulum environment but not a triple one, so the environment, observation and reward design, and termination conditions were built from scratch. The system dynamics are linearized to compute an LQR baseline, and PPO learns a residual correction on top of it rather than the full control policy.
+          </p>
+          <ul class="project-meta" aria-label="Technologies">
+            <li>PyTorch</li>
+            <li>MuJoCo</li>
+            <li>Gymnasium</li>
+            <li>PPO / LQR</li>
+          </ul>
+        </div>
+        <figure class="project-media" aria-label="Triple Pendulum RL demo video">
+          <video autoplay muted loop playsinline preload="metadata">
+            <source src="assets/projects/TriplePend.mp4" type="video/mp4" />
+            Your browser does not support HTML5 video.
+          </video>
+        </figure>
+      </article>
+
+      <article class="project">
+        <div class="project-copy">
+          <div class="project-title-row">
+            <h3>Calendar Agent</h3>
+            <a href="https://github.com/DanielJDeng1/calendar-agent" target="_blank" rel="noreferrer" aria-label="Open Calendar Agent on GitHub">Repository</a>
+          </div>
+          <p>
+            A Next.js app that converts natural language into structured calendar updates. OpenRouter parses intent into JSON; scheduling logic and conflict checks run locally in TypeScript.
+          </p>
+          <ul class="project-meta" aria-label="Technologies">
+            <li>Next.js</li>
+            <li>TypeScript</li>
+            <li>Zod</li>
+            <li>OpenRouter</li>
+          </ul>
+        </div>
+        <figure class="project-media" aria-label="Calendar Agent demo video">
+          <video autoplay muted loop playsinline preload="metadata">
+            <source src="assets/projects/CalendarAgent.mp4" type="video/mp4" />
+            Your browser does not support HTML5 video.
+          </video>
+        </figure>
+      </article>
+
+      <article class="project">
+        <div class="project-copy">
+          <div class="project-title-row">
+            <h3>The Magnetic Men</h3>
+            <a href="https://github.com/DanielJDeng1/The-Magnetic-Men" target="_blank" rel="noreferrer" aria-label="Open The Magnetic Men on GitHub">Repository</a>
+          </div>
+          <p>
+            A 2D puzzle-platformer with physics-based, magnet-driven mechanics, built in Unity. Submitted to the 2026 TSA Video Game Design competition as a national finalist.
+          </p>
+          <ul class="project-meta" aria-label="Technologies">
+            <li>Unity</li>
+            <li>C#</li>
+            <li>2D Physics</li>
+          </ul>
+        </div>
+        <figure class="project-media" aria-label="The Magnetic Men gameplay video">
+          <video autoplay muted loop playsinline preload="metadata">
+            <source src="assets/projects/MagnetMen.mp4" type="video/mp4" />
+            Your browser does not support HTML5 video.
+          </video>
+        </figure>
+      </article>
+
+      <article class="project">
+        <div class="project-copy">
+          <div class="project-title-row">
+            <h3>Soccer Agents ML</h3>
+            <a href="https://github.com/DanielJDeng1/Soccer-Agents-ML" target="_blank" rel="noreferrer" aria-label="Open Soccer Agents ML on GitHub">Repository</a>
+          </div>
+          <p>
+            A multi-agent reinforcement learning environment in Unity using ML-Agents and MA-POCA. Agents learn 2v2 soccer with continuous controls, multi-agent group rewards, and spatial shaping signals that discourage swarming and encourage tactical positioning.
+          </p>
+          <ul class="project-meta" aria-label="Technologies">
+            <li>Unity ML-Agents</li>
+            <li>MA-POCA</li>
+            <li>PPO</li>
+            <li>C#</li>
+          </ul>
+        </div>
+        <figure class="project-media" aria-label="Soccer Agents ML policy playback video">
+          <video autoplay muted loop playsinline preload="metadata">
+            <source src="assets/projects/SoccerAgents.mp4" type="video/mp4" />
+            Your browser does not support HTML5 video.
+          </video>
+        </figure>
+      </article>
+    </section>
+
+    <section class="more-work" aria-labelledby="more-work-title">
+      <div class="section-heading">
+        <h2 id="more-work-title">Other work</h2>
+      </div>
+
+      <div class="project-index">
+        <a class="index-row" href="https://github.com/DanielJDeng1/Double-Pendulum-RL" target="_blank" rel="noreferrer">
+          <span class="index-title">Double Pendulum RL</span>
+          <span class="index-description">PPO training run on InvertedDoublePendulum-v5.</span>
+          <span class="index-tech">PyTorch / MuJoCo</span>
+        </a>
+        <a class="index-row" href="https://github.com/DanielJDeng1/Drone-Navigation-ML" target="_blank" rel="noreferrer">
+          <span class="index-title">Drone Navigation ML</span>
+          <span class="index-description">3D obstacle navigation for a quadrotor in Unity.</span>
+          <span class="index-tech">Unity / PPO</span>
+        </a>
+        <a class="index-row" href="https://github.com/DanielJDeng1/Playing-Card-Identifier-ML-Project" target="_blank" rel="noreferrer">
+          <span class="index-title">Playing Card Identifier</span>
+          <span class="index-description">Image classifier for a 53-class card dataset.</span>
+          <span class="index-tech">PyTorch / CV</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="about" id="about" aria-labelledby="about-title">
+      <div class="section-heading">
+        <h2 id="about-title">About</h2>
+      </div>
+      <div class="about-grid">
+        <p>
+          I'm from Houston, Texas but am currently dorming in Austin. I love cats and playing video games. My favorite food is donuts.
+        </p>
+        <dl class="facts">
+          <div>
+            <dt>Interests</dt>
+            <dd>Reinforcement learning, simulation, tools, video games, HCI</dd>
+          </div>
+          <div>
+            <dt>Tools</dt>
+            <dd>Unity, PyTorch, MuJoCo, Next.js, Git</dd>
+          </div>
+          <div>
+            <dt>GitHub</dt>
+            <dd><a href="https://github.com/DanielJDeng1" target="_blank" rel="noreferrer">github.com/DanielJDeng1</a></dd>
+          </div>
+        </dl>
+      </div>
+    </section>
+
+    <section class="contact" id="contact" aria-labelledby="contact-title">
+      <h2 id="contact-title">Contact</h2>
+      <a class="contact-link" href="mailto:danieljdeng1@gmail.com">danieljdeng1@gmail.com</a>
+    </section>
+  </main>
+</body>
+</html>
